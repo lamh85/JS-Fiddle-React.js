@@ -40,6 +40,8 @@ var Quarter = React.createClass({
       <div className="quarter">
         <h2>{this.props.title}</h2>
         <textarea rows="10"></textarea>
+        <p>The props are:</p>
+        <p>{JSON.stringify(this.props)}</p>
       </div>
       )
   }
